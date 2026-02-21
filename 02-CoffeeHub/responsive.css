@@ -1,0 +1,144 @@
+@media screen and (max-width: 600px) {
+  
+  .home-navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .home-links-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    margin-right: 40px;
+  }
+
+  .home-link,
+  .home-link1,
+  .home-link2,
+  .home-link3 {
+    margin-right: 8px;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .home-cta-container {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .home-cta-btn {
+    width: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  .home-hero {
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .home-hero-text-container {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+
+  .home-heading {
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .home-text02 {
+    text-align: center;
+  }
+
+  .home-image1 {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    order: -1;
+  }
+
+  .home-features {
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .home-heading-container {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .home-text03 {
+    margin-bottom: 16px;
+  }
+
+  .home-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-feature-card,
+  .home-feature-card1,
+  .home-feature-card2 {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .home-image2,
+  .home-image3,
+  .home-image4 {
+    width: 100%;
+    max-width: 350px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 0 auto 16px auto;
+    display: block;
+  }
+
+  .home-stats {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    grid-gap: 24px;
+  }
+
+  .home-text08,
+  .home-text13,
+  .home-text17,
+  .home-text22 {
+    font-size: 2.5rem;
+  }
+
+  .home-cta-btn2 {
+    align-self: center;
+    width: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
